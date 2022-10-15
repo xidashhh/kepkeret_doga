@@ -1,5 +1,15 @@
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 #kep {
     width: 200px;
     scale: 1;
-    float: left;
+}
+#bekezdes {
+    font-size: 15pt;
 }
