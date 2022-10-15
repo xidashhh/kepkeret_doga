@@ -1,0 +1,1 @@
+(()=>{"use strict";function e(){let e=document.getElementById("kepURL").value;document.getElementById("kep").src=e}document.addEventListener("DOMContentLoaded",(()=>{let t=document.getElementById("kepURL");t.addEventListener("change",e),t.addEventListener("change",e)}))})();
