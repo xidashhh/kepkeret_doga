@@ -1,3 +1,8 @@
+import './style.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle.js';
+
+
 function urlValtozas(){
     let kepValue = document.getElementById('kepURL').value
     document.getElementById('kep').src = kepValue
@@ -37,7 +42,6 @@ function szinValtoztatas(){
 function pozicioValtas(){
 
     document.getElementById('kep').classList.toggle('right')
-    console.log('szia')
 }
 
 document.addEventListener('DOMContentLoaded', () => {
